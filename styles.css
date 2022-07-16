@@ -11,24 +11,21 @@ header {
     color: #9AEBA3;
     font-family: Verdana, sans-serif;
     text-align: center;
-    height: 284px;
     width: 100%;
 }
 
 header h1 {
     font-size: 34px;
-    margin: 16px 0;
-}
-
-header img {
-    position: absolute;
-    top: 16px;
-    left: 16px;
+    margin: 20px 0 10px 0;
 }
 
 header p {
     font-size: 20px;
-    margin: 16px 0;
+    margin: 10px 0 20px 0;
+}
+
+nav {
+    background-color: #012030;
 }
 
 .home-image {
@@ -36,6 +33,7 @@ header p {
     width: 189px;
 }
 
+/* currently unused */
 .vertically-centered {
     height: 100%;
     display: flex;
