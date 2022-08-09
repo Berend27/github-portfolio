@@ -60,6 +60,11 @@ main#about {
     background-image: url("images/PalmReflections.jpg");
 }
 
+main#projects {
+    background-image: url("images/Skyline.jpg");
+    background-position: center top;
+}
+
 nav ul {
     list-style-type: none;
     padding-left: 0;
@@ -78,6 +83,7 @@ img.content {
 }
 
 p.content {
+    font-family: Arial, Helvetica, sans-serif;
     width: 50%;
 }
 
@@ -112,6 +118,47 @@ p.content {
 
 .navbar ul li a:active {
     color: white;
+}
+
+.project {
+    color: #9AEBA3;
+    margin: 32px auto;
+    max-width: 504px;
+    width: 70%;
+}
+
+.project a {
+    color: inherit;
+}
+
+.project a:hover {
+    color: #DAFDBA;
+}
+
+.project a:active {
+    color: white;
+}
+
+.project h2 {
+    background-color: #012030;
+    border-radius: 4px;
+    margin: 16px auto;
+    max-width: 480px;
+    width: fit-content;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project p {
+    background-color: #012030;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 4px;
+    max-width: 100%;
+    width: fit-content;
 }
 
 /* currently unused */
