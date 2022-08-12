@@ -122,8 +122,11 @@ p.content {
 }
 
 .project {
+    background-color: #13678A;
+    border: 16px solid #13678A;
+    border-radius: 4px;
     color: #9AEBA3;
-    margin: 32px auto;
+    margin: 40px auto;
     max-width: 504px;
     width: 70%;
 }
@@ -141,7 +144,6 @@ p.content {
 }
 
 .project h2 {
-    background-color: #012030;
     border-radius: 4px;
     margin: 16px auto;
     max-width: 480px;
@@ -150,11 +152,11 @@ p.content {
 }
 
 .project img {
+    
     width: 100%;
 }
 
 .project p {
-    background-color: #012030;
     border-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
