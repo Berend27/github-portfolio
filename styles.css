@@ -71,6 +71,27 @@ nav ul {
     padding-left: 0;
 }
 
+.bi {
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.bi {
+    background-color: #C13584;
+    color: white;
+}
+
+.bi-linkedin {
+    background-color: #007bb5;
+    color: white;
+}
+
+.bi-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
 .content {
     background-color: aliceblue;
     border: 16px solid #45C4B0;
