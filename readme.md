@@ -1,7 +1,7 @@
 # github-portfolio
 Dexter's portfolio site hosted on GitHub
 
-<img width="760" alt="GitHubPortfolio" src="https://user-images.githubusercontent.com/42151098/185028898-357dcc63-2dc7-4747-9411-c3fd0a48181e.png">
+<img width="996" alt="GitHubPortfolio" src="https://user-images.githubusercontent.com/42151098/185029471-389a2a86-cfec-47de-8bf3-ea0b3bd1cc13.png">
 
 ## Deployment
 
