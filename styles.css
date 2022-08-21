@@ -256,6 +256,10 @@ p.content {
     }
 
     header p {
+        font-size: 34px;
+    }
+
+    footer p {
         font-size: 32px;
     }
 
@@ -304,7 +308,7 @@ p.content {
     }
 
     footer p {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     header h1 {
