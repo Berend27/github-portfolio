@@ -56,6 +56,10 @@ html {
     height: 100%;
 }
 
+img {
+    box-sizing: content-box;
+}
+
 main {
     flex-grow: 1;
     text-align: center;
@@ -112,6 +116,7 @@ nav ul {
     border: 16px solid #45C4B0;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     margin: 16px auto;
     padding: 20px;
 }
@@ -169,6 +174,7 @@ p.content {
 
 .navbar {
     background-color: #012030;
+    padding: 16px;
     width: 100%;
 }
 
@@ -243,22 +249,98 @@ p.content {
 @media only screen and (max-device-width: 767px) {
     div.content, p.content {
         font-size: 32px;
-        width: 80%;
     }
 
     header h1 {
-        font-size: 40px;
+        font-size: 44px;
     }
 
     header p {
-        font-size: 28px;
+        font-size: 32px;
     }
 
-    /* todo: .navbar */
+    .home-image {
+        height: 428px;
+        width: 321px;
+    }
 
-    /* todo: .home-image */
+    .navbar {
+        padding: 20px;
+    }
 
-    /* todo: footer */
+    .navbar ul li a {
+        font-size: 40px;
+    }
+
+    .project h2 {
+        font-size: 2em;
+    }
+
+    .project p {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div.content, p.content {
+        width: 80%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #contact div.content, #contact p.content {
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 820px) {
+    div.content, p.content {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 32px;
+    }
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    header p {
+        font-size: 24px;
+    }
+
+    .home-image {
+        height: 353px;
+        width: 265px;
+    }
+
+    .navbar ul li a {
+        font-size: 24px;
+    }
+
+    .project h2 {
+        font-size: 1.7em;
+    }
+
+    .project p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+    div.content, p.content {
+        width: 64%;
+    }
+
+    #contact div.content, #contact p.content {
+        width: fit-content;
+    }
 }
 
 /* Color Theme Swatches in Hex */
