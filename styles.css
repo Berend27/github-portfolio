@@ -247,50 +247,19 @@ p.content {
 
 /* media queries */
 @media only screen and (max-device-width: 767px) {
-    /* div.content, p.content {
-        font-size: 32px;
-    }
-
-    header h1 {
-        font-size: 44px;
-    }
-
-    header p {
-        font-size: 34px;
-    } */
-
     footer a, footer p {
         font-size: 32px;
     }
 
-    
-
     .navbar {
         padding: 20px;
     }
-
-    /* .navbar ul li a {
-        font-size: 40px;
-    }
-
-    .project h2 {
-        font-size: 2em;
-    }
-
-    .project p {
-        font-size: 32px;
-    } */
 }
 
 @media only screen and (max-width: 767px) {
     div.content, p.content {
         width: 80%;
     }
-
-    /* .home-image {
-        height: 428px;
-        width: 321px;
-    } */
    
     .navbar ul {
         flex-direction: column;
@@ -303,36 +272,6 @@ p.content {
         width: fit-content;
     }
 }
-
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 820px) {
-    div.content, p.content {
-        font-size: 20px;
-    }
-
-    footer a, footer p {
-        font-size: 20px;
-    }
-
-    header h1 {
-        font-size: 38px;
-    }
-
-    header p {
-        font-size: 24px;
-    }
-
-    .navbar ul li a {
-        font-size: 24px;
-    }
-
-    .project h2 {
-        font-size: 1.7em;
-    }
-
-    .project p {
-        font-size: 20px;
-    }
-} */
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
     div.content, p.content {
@@ -350,11 +289,16 @@ p.content {
     and (max-device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) { 
         div.content, p.content {
-            font-size: 22px;
+            font-size: 24px;
+        }
+
+        footer.navbar ul li a {
+            font-size: 28px;
         }
 
         .navbar ul li a {
             font-size: 32px;
+            margin-bottom: 8px;
         }
 
         .project h2 {
@@ -362,7 +306,7 @@ p.content {
         }
     
         .project p {
-            font-size: 22px;
+            font-size: 24px;
         }
 
         header h1 {
@@ -380,11 +324,16 @@ p.content {
     and (max-device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
         div.content, p.content {
-            font-size: 22px;
+            font-size: 24px;
+        }
+
+        footer.navbar ul li a {
+            font-size: 28px;
         }
 
         .navbar ul li a {
             font-size: 32px;
+            margin-bottom: 8px;
         }
 
         .project h2 {
@@ -392,7 +341,7 @@ p.content {
         }
     
         .project p {
-            font-size: 22px;
+            font-size: 24px;
         }
 
         header h1 {
